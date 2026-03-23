@@ -93,3 +93,4 @@ if st.button("ทำนายผล"):
     st.image("./img/heart2.jpg")
 else:
     st.write("ไม่ทำนาย")
+    st.write("test")
