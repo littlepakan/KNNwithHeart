@@ -63,17 +63,17 @@ st.markdown("")
 
 cols = dt.drop('HeartDisease', axis=1).columns
 
-A1 = st.number_input(f"กรุณาเลือกข้อมูล {cols[0]}")
-A2 = st.number_input(f"กรุณาเลือกข้อมูล {cols[1]}")
-A3 = st.number_input(f"กรุณาเลือกข้อมูล {cols[2]}")
-A4 = st.number_input(f"กรุณาเลือกข้อมูล {cols[3]}")
-A5 = st.number_input(f"กรุณาเลือกข้อมูล {cols[4]}")
-A6 = st.number_input(f"กรุณาเลือกข้อมูล {cols[5]}")
-A7 = st.number_input(f"กรุณาเลือกข้อมูล {cols[6]}")
-A8 = st.number_input(f"กรุณาเลือกข้อมูล {cols[7]}")
-A9 = st.number_input(f"กรุณาเลือกข้อมูล {cols[8]}")
-A10 = st.number_input(f"กรุณาเลือกข้อมูล {cols[9]}")
-A11 = st.number_input(f"กรุณาเลือกข้อมูล {cols[10]}")
+A1 = st.number_input(f"กรอกค่า {cols[0]}")
+A2 = st.number_input(f"กรอกค่า {cols[1]}")
+A3 = st.number_input(f"กรอกค่า {cols[2]}")
+A4 = st.number_input(f"กรอกค่า {cols[3]}")
+A5 = st.number_input(f"กรอกค่า {cols[4]}")
+A6 = st.number_input(f"กรอกค่า {cols[5]}")
+A7 = st.number_input(f"กรอกค่า {cols[6]}")
+A8 = st.number_input(f"กรอกค่า {cols[7]}")
+A9 = st.number_input(f"กรอกค่า {cols[8]}")
+A10 = st.number_input(f"กรอกค่า {cols[9]}")
+A11 = st.number_input(f"กรอกค่า {cols[10]}")
 
 if st.button("ทำนายผล"):
    #st.write("ทำนาย")
