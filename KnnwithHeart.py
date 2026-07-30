@@ -61,17 +61,19 @@ html_8 = """
 st.markdown(html_8, unsafe_allow_html=True)
 st.markdown("")
 
-A1 = st.number_input("กรุณาเลือกข้อมูล A1")
-A2 = st.number_input("กรุณาเลือกข้อมูล A2")
-A3 = st.number_input("กรุณาเลือกข้อมูล A3")
-A4 = st.number_input("กรุณาเลือกข้อมูล A4")
-A5 = st.number_input("กรุณาเลือกข้อมูล A5")
-A6 = st.number_input("กรุณาเลือกข้อมูล A6")
-A7 = st.number_input("กรุณาเลือกข้อมูล A7")
-A8 = st.number_input("กรุณาเลือกข้อมูล A8")
-A9 = st.number_input("กรุณาเลือกข้อมูล A9")
-A10 = st.number_input("กรุณาเลือกข้อมูล A10")
-A11 = st.number_input("กรุณาเลือกข้อมูล A11")
+cols = dt.drop('HeartDisease', axis=1).columns
+
+A1 = st.number_input(f"กรุณาเลือกข้อมูล {cols[0]}")
+A2 = st.number_input(f"กรุณาเลือกข้อมูล {cols[1]}")
+A3 = st.number_input(f"กรุณาเลือกข้อมูล {cols[2]}")
+A4 = st.number_input(f"กรุณาเลือกข้อมูล {cols[3]}")
+A5 = st.number_input(f"กรุณาเลือกข้อมูล {cols[4]}")
+A6 = st.number_input(f"กรุณาเลือกข้อมูล {cols[5]}")
+A7 = st.number_input(f"กรุณาเลือกข้อมูล {cols[6]}")
+A8 = st.number_input(f"กรุณาเลือกข้อมูล {cols[7]}")
+A9 = st.number_input(f"กรุณาเลือกข้อมูล {cols[8]}")
+A10 = st.number_input(f"กรุณาเลือกข้อมูล {cols[9]}")
+A11 = st.number_input(f"กรุณาเลือกข้อมูล {cols[10]}")
 
 if st.button("ทำนายผล"):
    #st.write("ทำนาย")
